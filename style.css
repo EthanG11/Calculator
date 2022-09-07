@@ -1,0 +1,86 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lines{
+    display: flex;
+    flex-direction: column;
+
+    width:500px;
+    height: 500px;
+   
+}
+
+
+.screen{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 500px;
+    height:135px;
+    background-color: rgba(239, 237, 237, 0.9);
+    font-size: 100px;
+   
+
+
+}
+
+.wholeCalculator{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-color: black;
+  
+    width: 500px;
+    height: 635px;
+
+    background-color: black;
+
+
+
+}
+
+.line1,.line2,.line3,.line4,.line5{
+    display: flex;
+
+    flex: 1 1 0;
+
+}
+button{
+    
+    flex: 1 1 0;
+    font-size: 36px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+
+#big{
+    flex-grow: 2.15;
+}
+
+.number{
+    background-color: grey;
+}
+
+.operator{
+    background-color: orange;
+}
+
+#equals{
+    background-color: orange;
+
+}
+
+#mod,#neg,#clear{
+    background-color: rgb(238, 238, 238);
+}
+
+
